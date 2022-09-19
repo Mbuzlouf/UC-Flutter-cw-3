@@ -3,10 +3,10 @@ void main() {
   print(value);
 }
 
-double sum(List<double> numbers) {
-  var result = 0.0;
+double sum(List numbers) {
+  var total = 0.0;
   for (var number in numbers) {
-    result += number;
+    total += number;
   }
-  return result;
+  return total;
 }
